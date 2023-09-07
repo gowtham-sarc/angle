@@ -21,7 +21,7 @@ vars = {
   'chromium_git': 'https://chromium.googlesource.com',
   'chrome_internal_git': 'https://chrome-internal.googlesource.com',
   'swiftshader_git': 'https://swiftshader.googlesource.com',
-  'sarc_github_git': 'git@github.sec.samsung.net',
+  'github_git': 'https://github.com',
 
   # This variable is overrided in Chromium's DEPS file.
   'build_with_chromium': False,
@@ -394,7 +394,7 @@ deps = {
   },
 
   'third_party/clspv': {
-    'url': '{sarc_github_git}:g-tammana/clspv.git@1dc5588e3f9fe103f06a00c8843afc8c52dc3bea',
+    'url': '{github_git}/gowtham-sarc/clspv.git@ade114a45da4a2f58f7ca3dd2a5ca5e641e4c892',
     'condition': 'not build_with_chromium',
   },
 
@@ -491,7 +491,7 @@ deps = {
   },
 
   'third_party/llvm': {
-    'url': '{sarc_github_git}:g-tammana/llvm-project.git@25a7304d8eb2a26ae7c9ecc79e110ec829a28bed',
+    'url': '{github_git}/gowtham-sarc/llvm-project.git@25a7304d8eb2a26ae7c9ecc79e110ec829a28bed',
     'condition': 'not build_with_chromium',
   },
 
