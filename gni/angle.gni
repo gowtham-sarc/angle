@@ -110,7 +110,7 @@ if (angle_enable_cl) {
   clspv_symlink_target = "//util/gn/${angle_clspv_dir}/"
   clspv_symlink_stamp = "${root_build_dir}/clspv_symlink.stamp"
 
-  exec_script("//build/symlink_or_copydir.py",
+  exec_script("//symlink_or_copydir.py",
               [
                 "--stamp",
                 rebase_path(clspv_symlink_stamp, root_build_dir),
