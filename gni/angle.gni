@@ -122,7 +122,7 @@ if (angle_enable_cl) {
   llvm_secondary_source = "//${llvm_build_root}secondary/"
   llvm_symlink_target = "//util/gn/${llvm_root}"
   llvm_symlink_stamp = "${root_build_dir}/llvm_symlink.stamp"
-  exec_script("//build/symlink_or_copydir.py",
+  exec_script("//symlink_or_copydir.py",
               [
                 "--stamp",
                 rebase_path(llvm_symlink_stamp, root_build_dir),
