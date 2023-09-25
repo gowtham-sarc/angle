@@ -394,7 +394,7 @@ deps = {
   },
 
   'third_party/clspv': {
-    'url': '{github_git}/gowtham-sarc/clspv.git@ade114a45da4a2f58f7ca3dd2a5ca5e641e4c892',
+    'url': '{github_git}/gowtham-sarc/clspv.git@213fa982064c5662428519cedf4adb497874e206',
     'condition': 'not build_with_chromium',
   },
 
@@ -491,7 +491,7 @@ deps = {
   },
 
   'third_party/llvm': {
-    'url': '{github_git}/gowtham-sarc/llvm-project.git@25a7304d8eb2a26ae7c9ecc79e110ec829a28bed',
+    'url': '{github_git}/gowtham-sarc/llvm-project.git@8a596783b99675db3b9abc0a9db9d576d67e5107',
     'condition': 'not build_with_chromium',
   },
 
